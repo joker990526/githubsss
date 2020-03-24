@@ -442,7 +442,7 @@ html.js,
 }
 
 #page-docu img {
-	width: 25%;
+	/* width: 25%; */
 	margin-left: 10px;
 	margin-bottom: 10px;
 	float: right;
