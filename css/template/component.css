@@ -267,8 +267,8 @@ html.js,
 	width: 1000%;
 }
 
-.divlogo12 {
-	margin-top: 20px;
+.logo12 {
+	margin-top: -20px;
 	margin-left: 20px;
 	width: 100px;
 
@@ -276,6 +276,7 @@ html.js,
 
 .logo12 img {
 	width: 500%;
+	margin-left: 100%;
 }
 
 .no-js .menu-button {
@@ -496,7 +497,7 @@ form {
 	border-radius: 5px;
 	line-height: 22px;
 	background-color: transparent;
-	border: 2px solid #CC6666;
+	border: 2px solid #737373;
 	transition: all 0.3s;
 	padding: 13px;
 	margin-bottom: 15px;
@@ -518,7 +519,7 @@ textarea {
 [type="submit"] {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	width: 100%;
-	background: #CC6666;
+	background: #945454;
 	border-radius: 5px;
 	border: 0;
 	cursor: pointer;
@@ -532,7 +533,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-	background: darksalmon;
+	background: #7d2f2f;
 }
 
 ::-webkit-input-placeholder {
