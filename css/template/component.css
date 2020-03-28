@@ -269,14 +269,14 @@ html.js,
 
 .logo12 {
 	margin-top: -20px;
-	margin-left: 20px;
-	width: 100px;
+	/* margin-left: 20px; */
+	width: 100%;
 
 }
 
 .logo12 img {
-	width: 500%;
-	margin-left: 100%;
+	width: 50%;
+	/* margin-left: 100%; */
 }
 
 .no-js .menu-button {
