@@ -190,7 +190,7 @@ html.js,
 /* page content */
 
 .info {
-	font-size: 1.75em;
+	font-size: 1.55em;
 	max-width: 100%;
 	margin-top: 1.5em;
 }
@@ -414,8 +414,13 @@ html.js,
 	}
 
 	.info {
-		font-size: 0.85em;
+		font-size: 1em;
 	}
+
+	.bp-header__desc {
+		font-size: 1em;
+		margin: 1em 0 1em;
+		padding: 0;
 
 	.poster {
 		margin: 1em;
