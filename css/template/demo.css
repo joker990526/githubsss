@@ -258,6 +258,13 @@ a:hover {
 	margin: 30px;
 }
 
+.contacts {
+	margin-bottom: 10px;
+	text-align: center; 
+	margin-top: 70px
+}
+
+
 ::-webkit-scrollbar {
 	width: 1px;
 }
@@ -315,4 +322,17 @@ a:hover {
 		margin: auto;
 	}
 
+}
+
+@media screen and (max-width: 40em) {
+	#page-software{
+		overflow-y: scroll ;
+	}
+
+	.contacts {
+		margin-bottom: 10px;
+		font-size: 25px;
+		text-align: left; 
+		margin-top: 70px
+	}
 }

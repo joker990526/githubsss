@@ -549,3 +549,12 @@ textarea {
 ::placeholder {
 	color: lightcoral;
 }
+
+@media screen and (max-width: 40em) {
+	#page-software{
+		overflow-y: scroll;
+	}
+
+	.logo12 img {
+		width: 90%;
+}
