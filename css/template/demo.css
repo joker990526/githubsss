@@ -246,6 +246,18 @@ a:hover {
 	scrollbar-width: none;
 }
 
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+
+}
+
+.flex-container>div {
+	width: 30%;
+	margin: 30px;
+}
+
 ::-webkit-scrollbar {
 	width: 1px;
 }
