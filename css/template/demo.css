@@ -340,8 +340,10 @@ a:hover {
 }
 
 .grides-container {
-	display: grid;
-	grid-template-columns: auto auto ;
+	display: inline-grid;
+	grid-template-rows: auto auto ;
+	grid-template-columns: 50% 50%;
+	margin-top: 30px;
   }
   .grids-item {
 	/* background-color: rgba(255, 255, 255, 0.8); */
@@ -349,4 +351,5 @@ a:hover {
 	padding: 0px;
 	font-size: 30px;
 	text-align: center;
+	
   }
